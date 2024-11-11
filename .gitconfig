@@ -12,6 +12,7 @@ br = branch
 cp = cherry-pick
 diff = diff --word-diff
 dc = diff --cached
+can = commit --amend --no-verify
 
 # Rebase commands
 rc = rebase --continue
