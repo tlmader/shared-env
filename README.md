@@ -1,4 +1,4 @@
-# tlmader-env
+# tlmader/shared-env
 
 Shared environment configurations. Note that the `.gitconfig` is configured for development with VSCode.
 
