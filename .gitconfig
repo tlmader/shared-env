@@ -17,6 +17,7 @@ can = commit --amend --no-verify
 # Rebase commands
 rc = rebase --continue
 mt = mergetool
+rebaseon = "!f() { git fetch origin \"$1\" && git rebase \"origin/$1\"; }; f"
 
 # Reset commands
 r = reset
